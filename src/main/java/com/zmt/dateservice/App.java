@@ -23,12 +23,12 @@ public class App {
 				continue;
 			}
 			
-			if(DateService.printVectauryFormat(record).equals("")) {
+			if(DateService.printHumainFormat(record).equals("")) {
 				System.err.println("Error, the difference should not be negatif or zero ");
 				continue;
 			}
 			else {
-				System.out.println(DateService.printVectauryFormat(record));
+				System.out.println(DateService.printHumainFormat(record));
 			}
 		}
 		scanner.close();	  
