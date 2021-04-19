@@ -56,7 +56,7 @@ public class DateService {
 			return result;
 		}
 		
-		public static String printVectauryFormat(String[] record) {
+		public static String printHumainFormat(String[] record) {
 			return calculate(toDate(record[0]),toDate(record[1]));
 		}
 }

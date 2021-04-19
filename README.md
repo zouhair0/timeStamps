@@ -1,3 +1,5 @@
+[EN]
+
 # Timestamps in Java
 
 The goal of the project is to build a gradle application displaying a difference between two timestamps. It reads Stdin line by line, each line containing two ISO-8601 date and time, separated with a space. Then, it
